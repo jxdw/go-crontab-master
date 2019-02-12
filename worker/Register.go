@@ -30,7 +30,7 @@ func getLocalIP() (ipv4 string, err error)  {
 	//	ipNet *net.IPNet //IP地址
 	//	isIpNet bool
 	//)
-
+    //https://blog.csdn.net/ycf8788/article/details/83111080
 	netInterfaces, err := net.Interfaces()
 	if err != nil {
 		fmt.Println("net.Interfaces failed, err:", err.Error())
