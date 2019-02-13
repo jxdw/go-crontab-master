@@ -1,2 +1,9 @@
+*.iml
 .idea
+.svn
+.classpath
+.project
+.settings
+bin
 go.sum
+
